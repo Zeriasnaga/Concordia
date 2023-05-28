@@ -1,0 +1,18 @@
+.btn-close {
+  filter: var(--bs-btn-close-white-filter);
+  --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.modal {
+  --bs-modal-color: #adb5bd;
+  --bs-modal-bg: #212529;
+  --bs-modal-border-color: rgba(255,255,255,0.15);
+  --bs-modal-header-border-color: #495057;
+  --bs-modal-footer-border-color: #495057;
+}
+
+.btn-close {
+  --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+  filter: var(--bs-btn-close-white-filter);
+}
+
